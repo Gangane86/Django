@@ -20,6 +20,7 @@ class Square(Shape):
 		return 4 * self.side
 
 s1 = Square(5)
+s3 = Square(6)
 print(s1.area())
 print(s1.perimeter())
 
